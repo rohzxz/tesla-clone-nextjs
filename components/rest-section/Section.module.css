@@ -1,0 +1,60 @@
+.model_x,
+.model_s,
+.model_3,
+.solar_roof {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110vh;
+  display: grid;
+  place-content: center;
+  gap: 35rem;
+  align-items: center;
+  text-align: center;
+}
+.model_x h1,
+.model_s h1,
+.model_3 h1,
+.solar_roof h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+/* rest image -------------------------------------------here */
+.model_3 {
+  background-image: url("../../assets/M3-Homepage-D.jpg");
+}
+
+.model_s {
+  background-image: url("../../assets/ms-main-hero-desktop.jpg");
+}
+
+.model_x {
+  background-image: url("../../assets/MX-Hero-Desktop.jpg");
+}
+.solar_roof {
+  background-image: url("../../assets/solar-panel-desktop.jpg");
+}
+/* rest image -------------------------------------------here */
+
+.main_btn {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  top: 5rem;
+}
+.main_btn button {
+  padding: 0.5rem 4.5rem;
+  border-radius: 5px;
+}
+.btn1 {
+  background-color: rgb(66, 65, 65);
+  color: white;
+}
+@media (max-width: 640px) {
+  .main_btn {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+}

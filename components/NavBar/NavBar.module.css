@@ -1,0 +1,100 @@
+.nav_bar,
+.nav_menu,
+.nav_btn {
+  display: flex;
+  align-items: center;
+}
+
+.nav_bar {
+  justify-content: space-between;
+  margin: 0.5rem auto;
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+  background: transparent;
+}
+
+.nav_menu {
+  align-items: center;
+  gap: 0.3rem;
+}
+.list {
+  text-decoration: none;
+}
+.list li {
+  padding: 0rem 0.5rem;
+}
+.nav_btn {
+  justify-content: center;
+  gap: 1rem;
+}
+.nav_btn li {
+  padding: 0.1rem 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.side_bar_menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: #fbf9f9ff;
+  padding: 3.4rem;
+  z-index: 4;
+  height: 100vh;
+}
+.side_bar_menu li {
+  display: block;
+  margin-top: 1rem;
+  color: inherit;
+  padding: 5px 0px;
+}
+.lists {
+  text-decoration: none;
+}
+.side_bar_menu button {
+  font-size: 1.5rem;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+}
+
+@media (max-width: 1200px) {
+  .list,
+  .nav_support {
+    display: none;
+  }
+  .btn_menu_bar {
+    background-color: rgba(0, 0, 0, 0.09);
+    transition: background-color 0.7s;
+  }
+
+  .btn_menu_bar:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+@media (min-width: 1200px) {
+  .nav_support:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .btn_menu_bar:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .list li:hover {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: none;
+  }
+}

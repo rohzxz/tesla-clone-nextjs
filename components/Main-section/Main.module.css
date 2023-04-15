@@ -1,0 +1,37 @@
+.main_section {
+  background-image: url("../../assets/Homepage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 35rem;
+  align-items: center;
+}
+.model_y h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+.main_btn {
+  display: flex;
+  gap: 1rem;
+}
+.main_btn button {
+  padding: 0.5rem 4.5rem;
+  border-radius: 5px;
+}
+.btn1 {
+  background-color: rgb(66, 65, 65);
+  color: white;
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .main_btn {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+}
