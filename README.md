@@ -1,18 +1,17 @@
-# my portfolio➕
+# simple tesla clone ➕
 
-![portfolio](https://github.com/rohzxz/portfolio.nextjs/blob/main/public/portfolio.png)
+Need to apply more functionality in the future .........
+
+![portfolio](https://github.com/rohzxz/tesla-clone-nextjs/blob/main/public/tesla%20clone.png)
 
 # Technologies 👾
 
 - [NextJS](https://nextjs.org/)
 - [ReactJS](https://reactjs.org/)
-- [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
-- [Swiper JS](https://swiperjs.com/)
 - [ modern-normalize v1.1.0](https://www.npmjs.com/package/modern-normalize)
+-
 
 # Getting started 🚀
-
-## First Option (Vercel) 🔺
 
 <ol>
   <li>Access your preference browser (Chrome, Edge, Safari, etc.)</li>
