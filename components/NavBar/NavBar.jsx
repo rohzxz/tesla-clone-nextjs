@@ -33,7 +33,7 @@ const NavBar = () => {
             <Image src={logo} alt="logo-svg" height="30" width="120" />
           </Link>
         </div>
-        <ol className={styles.nav_menu}>
+        <ul className={styles.nav_menu}>
           <Link className={styles.list} href={"#models"}>
             <li>Model S</li>
           </Link>
@@ -52,7 +52,7 @@ const NavBar = () => {
           <Link className={styles.list} href={"#Changer"}>
             <li>Changer</li>
           </Link>
-        </ol>
+        </ul>
         <ol className={styles.nav_btn}>
           <li className={styles.nav_support}>Support</li>
           <li className={styles.nav_support}>Account</li>
